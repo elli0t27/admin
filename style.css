@@ -5,7 +5,7 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .sidebar{
-    background-color: rgb(83,145,206);
+    background-color: rgb(83, 145, 206);
     grid-row: 1/3;
     color: white;
 }
@@ -51,4 +51,59 @@ body{
 .item{
     margin: 15px 10px;
     display: flex;
+}
+
+.profile{
+    border-radius:30px;
+}
+.header{
+    display: grid;
+    grid-template-rows: 0.5fr 1fr;
+    padding-left:40px;
+    padding-top: 10px;
+}
+.top-part{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+input{
+    border: none;
+    background-color:  rgb(227,232,239);
+    border-radius: 15px;
+    padding: 5px;
+    width: 70%;
+}
+.search{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.prof{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.bottom-part{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+}
+.left-bottom{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.right-bottom{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.btns{
+    border: none;
+    background-color: rgb(83, 145, 206);
+    color: white;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 25px;
 }
